@@ -8142,3 +8142,21 @@ button.close {
   margin: 0;
   overflow: visible;
   clip: auto; }
+
+nav.es-nav-theme {
+  background-color: #01AEF0;
+  color: white; }
+
+nav.es-nav-theme a {
+  color: white; }
+
+nav.es-nav-theme .nav > li > a:hover, nav.es-nav-theme .nav > li > a:focus {
+  background-color: #019cd7 !important;
+  color: white !important; }
+
+nav.es-nav-theme .navbar-nav > li > a {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.navbar-header {
+  margin-right: 30px; }
