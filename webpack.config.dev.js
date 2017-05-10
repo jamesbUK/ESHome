@@ -15,7 +15,7 @@ export default {
     },
     plugins: [
         //Generate an external css file with a hash in the filename
-        new ExtractTextPlugin('[name].[contenthash].css'),
+        new ExtractTextPlugin('site.css'),
         // Create HTML file that includes reference to bundled JS.
         new HtmlWebpackPlugin({
             template: 'src/index.html',
