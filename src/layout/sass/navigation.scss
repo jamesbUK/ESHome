@@ -3,6 +3,7 @@ $es-blue: #01AEF0;
 nav.es-nav-theme {
   background-color: $es-blue;
   color:white;
+  margin-bottom:0;
 }
 
 nav.es-nav-theme a {
@@ -21,4 +22,8 @@ nav.es-nav-theme .navbar-nav > li > a {
 
 .navbar-header{
   margin-right:30px;
+}
+
+.navbar-header > button > span.icon-bar {
+  background-color: white;
 }

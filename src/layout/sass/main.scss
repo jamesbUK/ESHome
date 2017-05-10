@@ -3,3 +3,18 @@ $fa-font-path: "font-awesome-4.7.0/fonts";
 @import "../bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../font-awesome-4.7.0/scss/font-awesome";
 @import "navigation.scss";
+
+.es-jumbotron {
+  background: #000 url("../../resources/images/pexels-photo.jpeg") no-repeat center center;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  color: #FFF; // change text color
+}
+
+#es-copyright {
+  color:#9d9d9d;
+  padding-top:17px;
+  text-align:right;
+}

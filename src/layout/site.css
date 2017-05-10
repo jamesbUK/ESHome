@@ -8145,7 +8145,8 @@ button.close {
 
 nav.es-nav-theme {
   background-color: #01AEF0;
-  color: white; }
+  color: white;
+  margin-bottom: 0; }
 
 nav.es-nav-theme a {
   color: white; }
@@ -8160,3 +8161,18 @@ nav.es-nav-theme .navbar-nav > li > a {
 
 .navbar-header {
   margin-right: 30px; }
+
+.navbar-header > button > span.icon-bar {
+  background-color: white; }
+
+.es-jumbotron {
+  background: #000 url("../../resources/images/pexels-photo.jpeg") no-repeat center center;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  color: #FFF; }
+
+#es-copyright {
+  color: #9d9d9d;
+  padding-top: 20px; }
